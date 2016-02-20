@@ -18,4 +18,4 @@ and don't forget to add the iTerm color scheme!
 3. probably other stuff
 
 ## screenshot
-![screenshot](https://github.com/nicknikolov/dark-matter.vim/sc.jpg)
+![screenshot](https://github.com/nicknikolov/dark-matter.vim/blob/master/sc.jpg)
