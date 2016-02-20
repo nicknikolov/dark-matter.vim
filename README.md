@@ -16,3 +16,6 @@ and don't forget to add the iTerm color scheme!
 1. gui
 2. provide schemes for other terminals
 3. probably other stuff
+
+## screenshot
+![screenshot](https://github.com/nicknikolov/dark-matter.vim/sc.jpg)
