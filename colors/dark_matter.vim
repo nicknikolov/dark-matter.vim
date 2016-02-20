@@ -42,11 +42,13 @@ hi ErrorMsg         guifg=white       guibg=#FF6C60     gui=BOLD      ctermfg=16
 
 hi WarningMsg       guifg=white       guibg=#FF6C60     gui=BOLD      ctermfg=16         ctermbg=red    cterm=NONE
 
-hi SpellBad         guifg=white       guibg=#FF6C60     gui=BOLD      ctermfg=204        ctermbg=160    cterm=NONE
 " Message displayed in lower left, such as --INSERT--
 hi ModeMsg          guifg=black       guibg=#C6C5FE     gui=BOLD      ctermfg=black       ctermbg=cyan        cterm=BOLD
 
 if version >= 700 " Vim 7.x specific colors
+  hi SpellBad       guifg=white       guibg=#FF6C60     gui=BOLD      ctermfg=white        ctermbg=197    cterm=NONE
+  hi SpellCap       guifg=white       guibg=#FF6C60     gui=BOLD      ctermfg=white        ctermbg=197    cterm=NONE
+  hi SpellRare       guifg=white       guibg=#FF6C60     gui=BOLD      ctermfg=white        ctermbg=197    cterm=NONE
   hi CursorLine     guifg=NONE        guibg=#121212     gui=NONE      ctermfg=NONE        ctermbg=243        cterm=BOLD
   hi CursorColumn   guifg=NONE        guibg=#121212     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
   hi MatchParen     guifg=#f6f3e8     guibg=#857b6f     gui=BOLD      ctermfg=white       ctermbg=darkgray    cterm=NONE
