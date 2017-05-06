@@ -24,7 +24,7 @@ hi LineNr           guifg=#3D3D3D     guibg=black       gui=NONE      ctermfg=da
 
 hi VertSplit        guifg=#202020     guibg=#202020     gui=NONE      ctermfg=lightgray   ctermbg=black    cterm=NONE
 hi StatusLine       guifg=#CCCCCC     guibg=#202020     gui=italic    ctermfg=lightgray   ctermbg=black    cterm=NONE
-hi StatusLineNC     guifg=black       guibg=#202020     gui=NONE      ctermfg=blue        ctermbg=darkgray    cterm=NONE  
+hi StatusLineNC     guifg=black       guibg=#202020     gui=NONE      ctermfg=blue        ctermbg=darkgray    cterm=NONE
 
 hi Folded           guifg=#a0a8b0     guibg=#384048     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=NONE
 hi Title            guifg=#f6f3e8     guibg=NONE        gui=bold      ctermfg=NONE        ctermbg=NONE        cterm=NONE
@@ -52,7 +52,7 @@ if version >= 700 " Vim 7.x specific colors
   hi CursorLine     guifg=NONE        guibg=#121212     gui=NONE      ctermfg=NONE        ctermbg=243        cterm=BOLD
   hi CursorColumn   guifg=NONE        guibg=#121212     gui=NONE      ctermfg=NONE        ctermbg=NONE        cterm=BOLD
   hi MatchParen     guifg=#f6f3e8     guibg=#857b6f     gui=BOLD      ctermfg=white       ctermbg=darkgray    cterm=NONE
-  
+
   hi Pmenu          guifg=#f6f3e8     guibg=#444444     gui=NONE      ctermfg=7        ctermbg=0        cterm=NONE
 
   hi PmenuSel       guifg=#000000     guibg=#cae682     gui=NONE      ctermfg=16        ctermbg=156        cterm=NONE
@@ -68,8 +68,8 @@ hi Keyword          guifg=#96CBFE     guibg=NONE        gui=NONE      ctermfg=11
 hi PreProc          guifg=#96CBFE     guibg=NONE        gui=NONE      ctermfg=blue        ctermbg=NONE        cterm=NONE
 hi Conditional      guifg=#6699CC     guibg=NONE        gui=NONE      ctermfg=168        ctermbg=NONE        cterm=NONE  " if else end
 
-hi Todo             guifg=#8f8f8f     guibg=NONE        gui=NONE      ctermfg=red         ctermbg=NONE        cterm=NONE
-hi Constant         guifg=#99CC99     guibg=NONE        gui=NONE      ctermfg=211        ctermbg=NONE        cterm=NONE
+hi Todo             guifg=#8f8f8f     guibg=NONE        gui=NONE      ctermfg=5         ctermbg=NONE        cterm=NONE
+hi Constant         guifg=#99CC99     guibg=NONE        gui=NONE      ctermfg=5        ctermbg=NONE        cterm=NONE
 
 hi Identifier       guifg=#C6C5FE     guibg=NONE        gui=NONE      ctermfg=30        ctermbg=NONE        cterm=NONE
 hi Function         guifg=#FFD2A7     guibg=NONE        gui=NONE      ctermfg=white       ctermbg=NONE        cterm=NONE
@@ -100,12 +100,12 @@ hi link SpecialComment  Special
 hi link Debug           Special
 
 " Special for HTML
-hi link htmlTag         Keyword 
-hi link htmlTagName     Conditional 
-hi link htmlEndTag      Identifier 
+hi link htmlTag         Keyword
+hi link htmlTagName     Conditional
+hi link htmlEndTag      Identifier
 
 " Special for Javascript
-hi link javaScriptNumber      Number 
+hi link javaScriptNumber      Number
 hi link jsModules      Special
 hi link jsModuleWords      Special
 hi link jsConditional      Statement
